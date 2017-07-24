@@ -52,6 +52,10 @@ header h3 {
   color: #fff;
 }
 
+section#main h1 {
+  padding-left: 1em;
+}
+
 /* Nav */
 nav {
   color: #000;
@@ -138,7 +142,7 @@ nav#menu ul li.acctNav::before, nav#menu ul li input#search::before {
 }
 
 nav#subMenu ul {
-  margin: 0 0 0 -10em;
+  margin: 0 0 0 -3em;
   padding: .9em .9em .9em 10em;
   height: 1.3em;
   font-family: Tahoma, sans-serif;
@@ -155,10 +159,10 @@ nav#subMenu ul {
       rgb(74, 86, 118), transparent
     );
 }
-
-/* Sidebar */
+/*
+//Sidebar 
 section#sidebar {
-  width: 20%;
+  width: 18%;
   height: 1750px;
   font-family: Tahoma, sans-serif;
   float: right;
@@ -169,13 +173,14 @@ section#sidebar {
   padding: 1.7em 2.5em 2.0em 1.7em;
   border-left: rgb(74, 86, 118) solid 20px;
 }
+*/
 
 /* Main */
 section#main {
   background-color: transparent;
   width: 1775px;
   margin: 0 0 2.0em;
-  padding: 1.5em 0 2.0em 10em;
+  padding: 1.5em 0 2.0em 0;
   display: inline-block;
   box-shadow: 1px 1px 5px #777;
   color: #fff;
@@ -187,8 +192,8 @@ section#main {
 div[class*="stack"] {
   border: 20px solid #fff;
   float: left;
-  height: 322px;
-  width: 450px;
+  height: 268px;
+  width: 375px;
   margin: 45px 45px 200px 45px;
   position: relative;
   -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
@@ -197,8 +202,8 @@ div[class*="stack"] {
 }
 
 div[class*="stack"], div[class*="stack"]:before, div[class*="stack"]:after{
-  height: 322px;
-  width: 450px;
+  height: 268px;
+  width: 375px;
   border: 20px solid #fff;
   -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
